@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "53b2c0fe-085a-492b-9d42-a69aaf213178": {
+      "ProjectGuid": "53b2c0fe-085a-492b-9d42-a69aaf213178",
+      "DisplayName": "测试",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "ab6779e8-205b-43ee-aba8-f3107b4434b1": {
+      "ProjectGuid": "ab6779e8-205b-43ee-aba8-f3107b4434b1",
+      "DisplayName": "text",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
