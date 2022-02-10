@@ -207,23 +207,54 @@
 //	return 0;
 //}
 
-int main()
+//int main()//关系操作符
+//{
+//	int a = 0;
+//	int b = 9;
+//	int max = 0;
+//
+//	////关系操作符大概就是这个意思
+//	// 判定a>b是否成立
+//	//if (a > b)
+//	//{
+//	//	max = a;//显然不成立
+//	//}
+//	//else//否则就b赋值给max
+//	//{
+//	//	max = b;
+//	//}
+//
+//	max = a > b ? a : b;
+//	//a>b是不是成立，成立a赋值给max，不成立b赋值给max
+//	printf("%d\n", max);
+//	return 0;
+//}
+
+//int main()//逗号表达式
+//{
+//	int a = 0;
+//	int b = 3;
+//	int c = 5;
+//	int d = (a = b + 2, b = a + 4, c = b - 5);
+//	//           a=5        b=9       c=4
+//	//逗号表达式--是从左至右依次计算的
+//	//整个逗号表达式的结果就是从左至右计算得来的结果。
+//	printf("%d\n", d);
+//	return 0;
+//}
+
+//int main()//下标引用
+//{
+//	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+//	printf("%d\n", arr[5]);
+//	return 0;
+//}
+
+int main()//函数调用操作符
 {
-	int a = 0;
-	int b = 9;
-	int max = 0;
-	////如果a>b条件成立a赋值给max
-	//if (a > b)
-	//{
-	//	max = a;//显然不成立
-	//}
-	//else//否则就b赋值给max
-	//{
-	//	max = b;//成立
-	//}
-	max = a > b ? a : b;
-	//a>b是不是成立，成立a赋值给max，不成立b赋值给max
-	printf("%d\n", max);
+	//调用函数的时候，函数名后边的()就是函数调用操作符
+	printf("hello\n");
+	printf("%d\n", 100);
 	return 0;
 }
 
