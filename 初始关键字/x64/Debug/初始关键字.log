@@ -1,2 +1,5 @@
 ﻿  关键字.c
-  初始关键字.vcxproj -> D:\code\C\初始关键字\x64\Debug\初始关键字.exe
+  函数.c
+  正在生成代码...
+关键字.obj : error LNK2019: 无法解析的外部符号 add，函数 main 中引用了该符号
+D:\code\C\初始关键字\x64\Debug\初始关键字.exe : fatal error LNK1120: 1 个无法解析的外部命令
