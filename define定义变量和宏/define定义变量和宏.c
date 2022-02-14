@@ -20,9 +20,34 @@
 //	return 0;
 //}
 
-#define add(x,y) (x+y)
+//#define add(x,y) (x+y)
+//int main()
+//{
+//	printf("%d\n", 7*add(2, 5));
+//	return 0;
+//}
+
+//函数的实现
+int Max(int x, int y)
+{
+	if (x < y)
+		return y;
+	else
+		return x;
+}
+
+//宏的实现
+#define MAX(x,y) (x<y?y:x)
+
 int main()
 {
-	printf("%d\n", 7*add(2, 5));
+	int a = 10;
+	int b = 20;
+	//函数的方式
+	int max = Max(a, b);
+	printf("max=%d\n", max);
+	//宏的方式
+	max = MAX(a, b);
+	printf("max=%d\n", max);
 	return 0;
 }
