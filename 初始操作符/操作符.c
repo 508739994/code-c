@@ -137,6 +137,14 @@
 //	return 0;
 //}
 
+int main()
+{
+	int num = 10;
+	&num;//取出num的地址
+	printf("%p\n", &num);//打印地址，%p--已地址得到形式打印
+	return 0;
+}
+
 //int main()//sizeof  --计算变量和类型的大小
 //{
 //	//sizeof是一个操作符，不是函数
