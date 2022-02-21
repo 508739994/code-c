@@ -186,6 +186,15 @@ int main()
 //	return 0;
 //}
 
+int main()//* --解引用操作符
+{
+	int a = 10;
+	int* pa = &a;//a的值存进pa里面
+	*pa = 20;//* 解引用操作符 | *pa就是通过pa里边的地址，找到a | 间接改变a的值
+	printf("%d\n", a);
+	return 0;
+}
+
 //int main()
 //{
 //	int a = (int)3.14;//不建议使用强制类型转换
