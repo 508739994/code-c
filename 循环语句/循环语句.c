@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-//int main()
+//int main()//if循环
 //{
 //	char password[20] = { 0 };
 //	printf("请输入密码:>");
@@ -29,7 +29,7 @@
 //	return 0;
 //}
 
-//int main()
+//int main()//while循环
 //{
 //	char password[20] = { 0 };
 //	printf("请输入密码:>");
@@ -70,23 +70,109 @@
 //	return 0;
 //}
 
-//打印100以内的奇数
-int main()
+////打印100以内的奇数
+//int main()
+//{
+//	int a = 1;
+//	while (a <= 100)
+//	{
+//		printf("%d ", a);
+//		a++;
+//		a++;
+//	}
+//	return 0;
+//}
+
+//int main()//for
+//{
+//	int i = 0;
+//	for (i = 1; i <= 20; i++)
+//	{
+//		printf("%d ", i);
+//	}
+//	return 0;
+//}
+
+//int main()//for循环的break
+//{
+//	int i = 0;
+//	for (i = 1; i <= 20; i++)
+//	{
+//		if (i == 5)
+//		{
+//			break;
+//		}
+//		printf("%d ", i);
+//	}
+//	return 0;
+//}
+
+//int main()//for循环的break
+//{
+//	int i = 0;
+//	for (i = 1; i <= 10; i++)
+//	{
+//		if (i == 5)
+//		{
+//			continue;
+//		}
+//		printf("%d ", i);
+//	}
+//	return 0;
+//}
+
+////可能出现的问题
+//int main()
+//{
+//	int a = 0;
+//	int j = 0;
+//	for (; a < 3; a++)
+//	{
+//		for (; j < 3; j++)
+//		{
+//			printf("hello\n");5
+//		}
+//	}
+//	return 0;
+//}
+
+//请问循环要循环多少次？
+//int main()
+//{
+//	int i = 0;
+//	int a = 0;
+//	for (i=0, a=0; a = 0 ; i++ , a++)
+//		a++;
+//	return 0;
+//}
+
+//int main()//do while
+//{
+//	int i = 0;
+//	do
+//	{
+//		printf("%d\n",i);
+//		i++;
+//
+//	} while (i <= 10);
+//	return 0;
+//}
+
+int main()//do while break的形式
 {
-	int a = 1;
-	while (a <= 100)
+	int i = 0;
+	do
 	{
-		printf("%d ", a);
-		a++;
-		a++;
-	}
+		if (i == 5)
+		{
+			break;
+		}
+		printf("%d\n", i);
+		i++;
+
+	} while (i <= 10);
 	return 0;
 }
-
-
-
-
-
 
 
 
