@@ -158,21 +158,38 @@
 //	return 0;
 //}
 
-int main()//do while break的形式
+//int main()//do while break的形式
+//{
+//	int i = 0;
+//	do
+//	{
+//		if (i == 5)
+//		{
+//			break;
+//		}
+//		printf("%d\n", i);
+//		i++;
+//
+//	} while (i <= 10);
+//	return 0;
+//}
+
+//计算n的阶乘
+int main()
 {
 	int i = 0;
-	do
+	int n = 0;
+	int ret = 1;
+	scanf("%d", &n);
+	for (i = 1; i <= n; i++)
 	{
-		if (i == 5)
-		{
-			break;
-		}
-		printf("%d\n", i);
-		i++;
-
-	} while (i <= 10);
+		ret *= i;
+	}
+	printf("%d\n", ret);
 	return 0;
 }
+
+//计算1+2+3+4+5...+10
 
 
 
